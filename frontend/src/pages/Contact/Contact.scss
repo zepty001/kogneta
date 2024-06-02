@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+// font-family: "Lato", sans-serif;
+
+.conatct-page {
+  width: 100%;
+  margin: auto;
+  background-color: #f9f9f9;
+  padding-top: 5rem;
+}
+
+.contact-banner {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 65%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.contact-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+
+  .contact-content-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .contact-content-text {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+    ul {
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.contact-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+
+
+  .contact-form-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+
+  .form-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  form {
+
+    .form-inputs {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+
+      label{
+        margin-bottom: 10px;
+      }
+
+      input {
+        padding: 8px 10px;
+        background-color: white;
+        border: 2px solid black;
+      }
+
+      .menu-flags{
+        background-color: white;
+        padding: 0;
+        border: 2px solid black;
+      }
+    }
+  }
+}
+
+.submit-btn{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    border: none;
+    background-color: #0080FF;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+.submit-btn:hover{
+  background-color: #0461be;
+}
+
+
+.company-section{
+  width: 100%;
+  background-color: white;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+.company-cntr{
+  width: 65%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .company-heading{
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 2rem;
+  }
+
+  .company-img-cntr{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+  }
+}

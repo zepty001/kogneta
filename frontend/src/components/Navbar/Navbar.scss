@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// font-family: "Lato", sans-serif;
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 10px -1px rgb(0 0 0 / 0.05);
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+    top: 0;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+
+    img {
+        width: 200px;
+        padding-left: 16rem;
+        @media screen and (max-width: 1679px) {
+            padding-left: .5rem;
+        }
+    }
+}
+
+.navbar-links {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding-right: 16rem;
+
+    li {
+        margin: 0rem 1rem;
+        cursor: pointer;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+        flex-direction: column;
+        margin-top: 1rem;
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2rem;
+        color: 	#0080FF;
+
+    }
+    a:hover {
+        color: 	#0461be;
+        cursor: pointer;
+        border-bottom: 2px solid #0461be;
+        padding-bottom: 5px;
+    }
+
+
+    @media screen and (max-width: 1679px) {
+        display: none;
+    }
+}
+
+.nav-btn{
+    margin-left: 10px;
+    border: none;
+    background-color: #0080FF;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+.nav-btn:hover {
+    color: white !important;
+    background-color: #0461be;
+    cursor: pointer;
+}
+
+.nav-link-btn{
+    text-decoration: none;
+}
+.nav-link-btn:hover{
+    padding-bottom: 0px !important;
+}
+
+
+
+.navbar-menu {
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin-right: 1rem;
+
+    .nav-btn{
+        margin-left: 10px;
+        border: none;
+        background-color: #c36;
+        color: white;
+        padding: 12px 20px;
+        font-size: 15px;
+        font-family: "Lato", sans-serif;
+        border-radius: 50px 50px 50px 50px;
+        
+    }
+    .nav-btn:hover {
+        color: white !important;
+        background-color: rgb(228, 74, 125);
+        cursor: pointer;
+    }
+
+    svg {
+        width: 80%;
+        height: 80%;
+        color: white;
+    }
+
+    div {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 5;
+        padding: 1rem;
+
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        background-color: white;
+        background-size: cover;
+        background-repeat: repeat;
+
+        box-shadow: 0 0 20px rgb(168, 168, 168, 0.15);
+
+        svg {
+            width: 35px;
+            height: 35px;
+            color: black;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+
+
+            li {
+                margin: 1rem;
+                color: black;
+
+                a {
+                    text-decoration: none;
+                    flex-direction: column;
+                    margin-top: 1rem;
+                    font-family: "Lato", sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 2rem;
+                    color: #c36;
+            
+                }
+                a:hover {
+                    color: #336;
+                    cursor: pointer;
+                    border-bottom: 2px solid #336;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+
+        @media screen and (min-width: 1679px) {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1679px) {
+        display: none;
+    }
+}
+
+

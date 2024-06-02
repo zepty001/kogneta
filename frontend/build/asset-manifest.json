@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.088373a4.css",
+    "main.js": "/static/js/main.cb936bf0.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/opportunity.jpg": "/static/media/opportunity.63f741ab362e33eae713.jpg",
+    "static/media/vacancy.jpg": "/static/media/vacancy.7b734fe2d240b540cb5e.jpg",
+    "static/media/quality.jpg": "/static/media/quality.b49c755f693b9a2e5e27.jpg",
+    "static/media/hama.webp": "/static/media/hama.6d2f444b20e7ffc333c4.webp",
+    "static/media/calable.jpg": "/static/media/calable.92b86da3c7502d5ccc02.jpg",
+    "static/media/logo.png": "/static/media/logo.63065011594f92e58ba7.png",
+    "static/media/strategies.jpg": "/static/media/strategies.c93f509cda44d6ecafb4.jpg",
+    "static/media/skyetec-dark.svg": "/static/media/skyetec-dark.0e26d5a5a0828c816b2212bdc0fbe9dd.svg",
+    "static/media/image-studios.png": "/static/media/image-studios.32d79666ebb9c92d952b.png",
+    "static/media/skyview-law.svg": "/static/media/skyview-law.c56b2bc9b993599120eac91d25760e61.svg",
+    "static/media/martin.png": "/static/media/martin.e7e4e206f8041749cf49.png",
+    "static/media/common.png": "/static/media/common.827edb96ff3ca1a4d6f3.png",
+    "static/media/work-214.webp": "/static/media/work-214.cf0315fbf3c7e4ebd075.webp",
+    "static/media/crown.png": "/static/media/crown.a21820d054a277479eb0.png",
+    "static/media/digital.svg": "/static/media/digital.1953072074d51d55ad8d211636e599b2.svg",
+    "static/media/crm.svg": "/static/media/crm.eb368610346dc167c9697fc6fc4848e0.svg",
+    "static/media/automation.svg": "/static/media/automation.3e4db26d4c427f3c9a80b8d4590cb050.svg",
+    "static/media/ppc.svg": "/static/media/ppc.7eb0579841ce06db1104aca640ba0b4d.svg",
+    "static/media/insights.svg": "/static/media/insights.c20ac4410e06e63d3f2ea922d4cd7f98.svg",
+    "static/media/seo.svg": "/static/media/seo.97b375c37f2748dbf233af64fd5eed5c.svg",
+    "static/media/website.svg": "/static/media/website.d6bd8f6aaf241ddde6534fb677a8de47.svg",
+    "static/media/conversion.svg": "/static/media/conversion.afa67b6805d10cbaf6708ce6bf949bb7.svg",
+    "static/media/content.svg": "/static/media/content.fc8ef9bc25a85ba163e4fb42307b9ef1.svg",
+    "static/media/revenue.svg": "/static/media/revenue.0e9ef4b2d0dfa661ae4db52b83ef3bf9.svg",
+    "static/media/language.svg": "/static/media/language.15f15943ce5f30e796a6633d28106749.svg",
+    "static/media/accountability.svg": "/static/media/accountability.ff16c61bd6cc873fbb79f1c4992c1e84.svg",
+    "static/media/support.svg": "/static/media/support.ce537da669ac1e32b16367de2af6d996.svg",
+    "static/media/bs-free.svg": "/static/media/bs-free.897c64c4d546bfc08e3f4512f155e05b.svg",
+    "index.html": "/index.html",
+    "main.088373a4.css.map": "/static/css/main.088373a4.css.map",
+    "main.cb936bf0.js.map": "/static/js/main.cb936bf0.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088373a4.css",
+    "static/js/main.cb936bf0.js"
+  ]
+}
